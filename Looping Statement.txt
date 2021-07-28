@@ -1,0 +1,265 @@
+1. Which of the following is not used as loop in Python?
+
+    A. for loop
+    B. while loop
+    C. do-while loop
+    D. None of the above
+    
+    Ans C
+
+2. Which of the following is False regarding loops in Python?
+
+    A. Loops are used to perform certain tasks repeatedly.
+    B. While loop is used when multiple statements are to executed repeatedly until the given condition becomes False
+    C. While loop is used when multiple statements are to executed repeatedly until the given condition becomes True.
+    D. for loop can be used to iterate through the elements of lists.
+    
+    Ans B
+
+3. How many times will the loop run?
+
+    i=2
+
+    while(i>0):
+
+        i=i-1
+
+    A. 2
+    B. 3
+    C. 1
+    D. 0
+    
+    Ans A
+    
+4. What will be the output of the following Python code?
+
+    list1 = [3 , 2 , 5 , 6 , 0 , 7, 9]
+
+    sum = 0
+
+    sum1 = 0
+
+    for elem in list1:
+
+        if (elem % 2 == 0):
+
+            sum = sum + elem
+
+            continue
+
+        if (elem % 3 == 0):
+
+            sum1 = sum1 + elem
+
+
+
+    print(sum , end=" ")
+
+    print(sum1)
+
+    A. 8 9
+    B. 8 3
+    C. 2 3
+    D. 8 12
+    
+    Ans D
+    
+5. for i in [1,2,3]:, how many times a loop run ?
+
+    A.0
+
+    B.1
+
+    C.2
+
+    D.3
+    
+    Ans D
+    
+6. for loop in python are work on
+    A.range
+
+    B.iteration
+
+    C.Both of the above
+
+    D.None of the above
+    
+    Ans C
+    
+7. For loop in python is 
+
+    A.Entry control loop
+
+    B.Exit control loop
+
+    C.Simple loop
+
+    D.None of the above 
+    
+    Ans A
+    
+8. In which of the following loop in python, we can check the condition ?
+    A.for loop
+
+    B.while loop
+
+    C.do while loop
+
+    D.None of the above
+    
+    Ans B
+    
+9.l=[],for i in l: print(l), what is the output ?
+    A.[]
+
+    B.list
+
+    C.print()
+
+    D.None of the above
+    
+    Ans D
+
+10. To break the infinite loop , which keyword we use ?
+    A.continue
+
+    B.break
+
+    C.exit
+
+    D.None of the above
+    
+    Ans B
+   
+11. What is the final value of the i  after this, for i in range(3): pass
+    A.1
+
+    B.2
+
+    C.3
+
+    D.0
+    
+    Ans B
+    
+12. What is the value of i after the for loop ?, for i in range(4):break
+    A.1
+
+    B.2
+
+    C.3
+
+    D.0
+    
+    Ans D
+    
+13. What we put at the last of the loop ?
+    A.semicolon
+
+    B.colon
+
+    C.comma
+
+    D.None of the above
+    
+    Ans B
+    
+14. What will be the output of the following Python code?
+
+    x = ['ab', 'cd']
+    for i in x:
+        i.upper()
+    print(x)
+    A) [‘ab’, ‘cd’]
+    B) [‘AB’, ‘CD’]
+    C) [None, None]
+    D) none of the mentioned
+    
+    Ans A
+
+15. What will be the output of the following Python code?
+
+    i = 1
+    while True:
+        if i%3 == 0:
+            break
+        print(i)
+
+        i + = 1
+    A) 1 2
+    B) 1 2 3
+    C) error
+    D) none of the mentioned
+    
+    Ans C
+
+16. What will be the output of the following Python code?
+
+    i = 1
+    while True:
+        if i%0O7 == 0:
+            break
+        print(i)
+        i += 1
+    A) 1 2 3 4 5 6
+    B) 1 2 3 4 5 6 7
+    C) error
+    D) none of the mentioned
+ 
+    Ans A
+
+17. What will be the output of the following Python code?
+
+    i = 5
+    while True:
+        if i%0O11 == 0:
+            break
+        print(i)
+        i += 1
+    A) 5 6 7 8 9 10
+    B) 5 6 7 8
+    C) 5 6
+    D) error
+    
+    Ans B
+    
+18.What will be the output of given Python code?
+
+    str1="hello"
+    c=0
+    for x in str1:
+       if(x!="l"):
+           c=c+1
+       else:
+           pass
+    print(c)
+    A. 2
+    B. 0
+    C. 4
+    D. 3
+    
+    Ans D
+    
+19. What will be the output of the following Python code?
+
+    for i in range(0,2,-1):
+
+        print("Hello")
+
+    A. Hello
+    B. Hello Hello
+    C. No Output
+    D. Error
+    
+    Ans C
+    
+20. Which of the following is a valid for loop in Python?
+
+    A. for(i=0; i < n; i++)
+    B. for i in range(0,5):
+    C. for i in range(0,5)
+    D. for i in range(5)
+    
+    Ans B
+   

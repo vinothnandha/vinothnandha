@@ -1,0 +1,238 @@
+1. The following syntax is correct for if conditional statement.
+
+     if condition
+        code
+       end
+       
+    a) True
+    b) Falsecode
+       end
+    a) True
+    b) False
+    
+    Ans a
+    
+2. If expression.The expression can be of which type?
+    a) True
+    b) Any number
+    c) Any string
+    d) All of the mentioned
+    
+    Ans d
+
+3. What error does the if condition gives if not terminated with end statement?
+    a) Syntax error
+    b) Unexpected end
+    c) Expecting keyword end
+    d) All of the mentioned
+    
+    Ans d
+    
+4. What is the output of the following?
+
+    if 1<2
+       print "one is less than two"
+       end
+    a) One is less than two
+    b) Syntax error
+    c) 1<2
+    d) None of the mentioned
+    
+    Ans a
+    
+5. What is the output of the code?
+
+     if 11<2
+       print "Eleven is less than two"
+       end
+       print "11 is greater"
+    a) 11 is greater
+    b) Eleven is less than two
+    c) Eleven is less than two 11 is greater
+    d) None of the mentioned
+    
+    Ans a
+
+6. What is the output of the given code?
+
+    if 11>2
+       puts "Eleven is greater than two"
+       end
+       print "You'r right"
+    a) Eleven is greater than two
+    b) You’r right
+    c) Eleven is greater than two
+    You’r right
+    d) None of the mentioned
+    
+    Ans c
+    
+7. If statement inside if statement is called Nested if statements.
+    a) True
+    b) False
+
+    Ans a
+    
+8. Which of the following is true about the code below?
+
+    x = 3
+    if (x > 2):
+        x = x * 2;
+    if (x > 4):
+        x = 0;
+    print(x)
+    A. x will always equal 0 after this code executes for any value of x
+    B. if x is greater than 2, the value in x will be doubled after this code executes
+    C. if x is greater than 2, x will equal 0 after this code executes
+    
+    Ans c
+
+9. What is the output from the following code?
+
+    a = 3
+    b = (a != 3)
+    print(b)
+    A. True
+    B. False
+    
+    Ans B
+    
+10. Which of the following evaluates to True when a is equal to b or when a is equal to 5?
+
+    A. a == b == 5
+    B. a = b or a = 5
+    C. a == b or a == 5
+    D. a = b and a = 5
+    
+    Ans C
+    
+11. What is the result of the condition passed in the if block in Python?
+
+     A.Boolean Output
+     B.Numerical Output
+     C.Both based on the scenario.
+     D.None of these.
+     
+     Ans A
+ 
+ 12. How many conditions can be specified in an if block?
+
+     A.One
+     B.Three
+     C.Eleven
+     D.Infinite.
+     
+     Ans D
+
+13. What is the correct syntax for the if-else block?
+
+     A.if()
+     B.If condition: code-block Elif condition: pass
+     C.If condition: Code-block Else: code-block
+     D.None of these.
+     
+     Ans C
+     
+14. What can be put in the if code block if you don’t want any execution in the block?
+
+     A.return
+     B.pass
+     C.print()
+     D.All of these.
+     
+     Ans B
+     
+15. What is the shorthand for the else block combined with an if block in python?
+
+     A.else-if
+     B.elseIf
+     C.elsif
+     D.elif
+     
+     Ans D
+     
+16. What will be the output of the code given below?
+    # Code Snippet Starts
+
+    if(‘true’):
+    print(“Hello, from QuizOrbit!”)
+    else:
+    print(“Exit!”)
+
+    # Code Snippet Starts
+
+     A.Exit!
+     B.Hello, from QuizOrbit!
+     C.Error in the code.
+     D.None of these.
+     
+     Ans B
+     
+17. What will be the output of the code given below?
+    # Code Snippet Starts
+
+    if (0 or 5):
+    print(‘If is executed’)
+    else:
+    pass
+
+    # Code Snippet Starts
+
+     A.No output is registered.
+     B.pass
+     C.If is Executed.
+     D.None of these.
+     
+     Ans D
+
+18. Find the output of the code given below?
+    # Code Snippet Starts
+    a = 12
+    b = 15
+    c = 18
+
+    if (a>b):
+    b+=5
+    elif(b>c):
+    c+=5
+    elif(c>a):
+    a+=9
+
+    print(a,b,c)
+
+    # Code Snippet Starts
+
+     A.21 15 18
+     B.21 20 23
+     C.21 15 23
+     D.None of these.
+     
+     Ans A
+     
+19. Find the output of the code given below?
+    # Code Snippet Starts
+
+    val = (23,14,25)
+    val[1]=90
+
+    if(90 in val):
+    print(“You win”)
+    else:
+    print(“Exit!”)
+
+    # Code Snippet Starts
+
+     A.You win
+     B.Exit!
+     C.No output is recorded.
+     D.Error in the code.
+     
+     Ans D
+     
+20. 2. Which symbol should go at the end of an if statement?
+    A-"
+    B-)
+    C-:
+    D-;
+    
+    Ans C
